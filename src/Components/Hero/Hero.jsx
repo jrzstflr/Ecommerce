@@ -1,30 +1,30 @@
 import React from "react";
-import Image1 from "../../assets/hero/women.png";
-import Image2 from "../../assets/hero/shopping.png";
-import Image3 from "../../assets/hero/sale.png";
+import Image1 from "../../assets/hero/image4.png";
+import Image2 from "../../assets/hero/image5.png";
+import Image3 from "../../assets/hero/image1.jpg";
 import Slider from "react-slick";
 
 const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all Men's Wear",
+    title: "Silog Meals by Mary Rose",
     description:
-      "Elevate your wardrobe with premium men's wear at unbeatable discounts. Don't miss the chance to redefine your style for less!",
+      "Savor the comfort of home with Silog Meals by Mary Rose. Every plate is freshly cooked, hearty, and made with care—just the way you remember it.",
   },
   {
     id: 2,
     img: Image2,
-    title: "30% off on all Women's Wear",
+    title: "Fuel Your Day, the Silog Way",
     description:
-      "Discover the perfect blend of comfort and elegance. Shop women's wear now and save on your favorite styles.",
+      "Authentic taste. Honest meals. Always satisfying. Home-Cooked Goodness, Served Fresh Daily. The Heart of Every Filipino Breakfast. Where Comfort Food Meets Everyday Cravings.",
   },
   {
     id: 3,
     img: Image3,
-    title: "70% off on all Products Sale",
+    title: "Where Every Meal Feels Like Home",
     description:
-      "Your favorite products, now at jaw-dropping prices. Shop the sale and grab your must-haves before they're gone!",
+      "From sizzling tapsilog to classic longsilog, Silog Meals by Mary Rose serves comfort on a plate. Made fresh, made flavorful, made for you.",
   },
 ];
 

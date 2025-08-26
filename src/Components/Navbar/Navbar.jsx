@@ -1,10 +1,9 @@
 import React from "react";
 
 import { IoMdSearch } from "react-icons/io";
-import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
 import DarkMode from "./DarkMode";
-import { FiShoppingBag } from "react-icons/fi";
+import { TbTruckDelivery } from "react-icons/tb";
 
 const Menu = [
   {
@@ -60,8 +59,8 @@ const Navbar = ({ handleOrderPopup }) => {
         <div className="container flex justify-between items-center">
           <div>
             <a href="#" className="font-bold text-xl items-center flex gap-1">
-              <FiShoppingBag size="30" />
-              ShopMe
+              <TbTruckDelivery size="30" />
+              Mary Rose
             </a>
           </div>
 
@@ -85,7 +84,7 @@ const Navbar = ({ handleOrderPopup }) => {
               <span className="group-hover:block hidden transition-all duration-200">
                 Order
               </span>
-              <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
+              <TbTruckDelivery className="text-xl text-white drop-shadow-sm cursor-pointer" />
             </button>
 
             {/* Darkmode Switch */}
